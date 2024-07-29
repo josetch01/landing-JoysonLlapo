@@ -1,0 +1,379 @@
+@media (max-width:768px) {
+    .main-principal {
+        background-color: #0F2C1E;
+        height: 100vh;
+        margin-top: auto;
+    }
+
+    .section-main-principal {
+        color: #ffffff;
+    }
+
+    .tamaño-main-principal {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: auto;
+    }
+
+    .texto-main-principal {
+        width: 100%;
+    }
+
+    .texto-main-principal h1 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .texto-main-principal h1 span {
+        color: #3BC753;
+
+    }
+
+    .texto-main-principal blockquote {
+        text-align: center;
+        font-size: 12px;
+        padding: 0 30px;
+
+    }
+
+    .video-main-principal {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+
+    }
+
+    .video {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .video video {
+        max-width: 100%;
+        margin: auto;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .boton-main-principal {
+        width: 83.3333333333%;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton-main-principal .boton {
+        background-color: #16770b;
+        color: #fff !important;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        transition: background-color 150ms ease-in-out, color 150ms ease-in-out, border 150ms ease-in-out;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: .2px;
+        text-decoration: inherit;
+        padding: 5px 30px;
+        margin: auto;
+        width: 60%;
+    }
+    .boton a {
+        color: #fff !important;
+    }
+    .boton-main-principal .boton:hover {
+        background-color:#229416;
+    }
+    .boton a svg {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .redes-main-principal{
+        width: 50%;
+        margin: auto;
+        padding: 15px;
+    }
+    .content-iconos-redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .content-iconos-redes a{
+        background-color: #0a5b1f;
+        color: #ffffff !important;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .content-iconos-redes a:hover{
+        background-color: #148332;
+
+    }
+}
+
+@media (min-width:768px) {
+    .main-principal {
+        background-color: #0F2C1E;
+    }
+
+    .section-main-principal {
+        color: #ffffff;
+    }
+
+    .tamaño-main-principal {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: auto;
+    }
+
+    .texto-main-principal {
+        width: 100%;
+    }
+
+    .texto-main-principal h1 {
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .texto-main-principal h1 span {
+        color: #3BC753;
+
+    }
+
+    .texto-main-principal blockquote {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .video-main-principal {
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+
+    }
+
+    .video {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .video video {
+        max-width: 100%;
+        margin: auto;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .boton-main-principal {
+        width: 83.3333333333%;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton-main-principal .boton {
+        background-color: #16770b;
+        color: #fff !important;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        transition: background-color 150ms ease-in-out, color 150ms ease-in-out, border 150ms ease-in-out;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: .2px;
+        text-decoration: inherit;
+        padding: 8px 30px;
+        margin: auto;
+        width: 35%;
+    }
+    .boton a {
+        color: #fff !important;
+    }
+    .boton-main-principal .boton:hover {
+        background-color:#229416;
+    }
+    .boton a svg {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .redes-main-principal{
+        width: 50%;
+        margin: auto;
+        padding: 15px;
+    }
+    .content-iconos-redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .content-iconos-redes a{
+        background-color: #0a5b1f;
+        color: #ffffff !important;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .content-iconos-redes a:hover{
+        background-color: #148332;
+
+    }
+}
+
+@media (min-width:1200px) {
+    .main-principal {
+        background-color: #0F2C1E;
+    }
+
+    .section-main-principal {
+        color: #ffffff;
+    }
+
+    .tamaño-main-principal {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: auto;
+    }
+
+    .texto-main-principal {
+        width: 100%;
+    }
+
+    .texto-main-principal h1 {
+        font-size: 48px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .texto-main-principal h1 span {
+        color: #3BC753;
+    }
+
+    .texto-main-principal blockquote {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .video-main-principal {
+        width: 75%;
+        margin: auto;
+        padding: 15px;
+
+    }
+
+    .video {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .video video {
+        max-width: 100%;
+        margin: auto;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .boton-main-principal {
+        width: 83.3333333333%;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton-main-principal .boton {
+        background-color: #16770b;
+        color: #fff !important;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        transition: background-color 150ms ease-in-out, color 150ms ease-in-out, border 150ms ease-in-out;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: .2px;
+        text-decoration: inherit;
+        padding: 15px 30px;
+        margin: auto;
+        width: 40%;
+    }
+    .boton a {
+        color: #fff !important;
+    }
+    .boton-main-principal .boton:hover {
+        background-color:#229416;
+    }
+    .boton a svg {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .redes-main-principal{
+        width: 50%;
+        margin: auto;
+        padding: 15px;
+    }
+    .content-iconos-redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .content-iconos-redes a{
+        background-color: #0a5b1f;
+        color: #ffffff !important;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .content-iconos-redes a:hover{
+        background-color: #148332;
+
+    }
+}

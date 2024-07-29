@@ -1,0 +1,248 @@
+@media (max-width:768px) {
+  .section-header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  header {
+    background-color: #000000;
+    font-size: 18px;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #ffffff;
+  }
+
+  .header_content_desktop {
+    padding: 20px 0;
+    color: #ffffff;
+  }
+
+  .container-header {
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 1340px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .block-header {
+    text-align: center;
+    line-height: 1;
+    margin-left: 0 !important;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .logo-header{
+    display: inline-block;
+    margin: 0;
+    transition: all 0.1s;
+    text-decoration: none;
+    color: #fff;
+  }
+  .logo-header img{
+    display: block;
+    width: 110px;
+    max-width: 100%;
+    height: auto;
+  }
+  .boton-unirme-header{
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .boton-unirme-header a{
+    background-color: #4b22f4;
+    background-color: var(--color-primary-main, #4B22F4);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out, border 150ms ease-in-out;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    text-decoration: inherit;
+    padding: 9.5px 30px;
+  }
+  .boton-unirme-header a:hover{
+    background-color: var(--color-primary-lighter, #9C86F9);
+  }
+  .boton-unirme-header a svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width:768px) {
+  .section-header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  header {
+    background-color: #000000;
+    font-size: 18px;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #ffffff;
+  }
+
+  .header_content_desktop {
+    padding: 20px 0;
+    color: #ffffff;
+  }
+
+  .container-header {
+    align-items: center;
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    max-width: 1340px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .block-header {
+    text-align: center;
+    line-height: 1;
+    margin-left: 0 !important;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .logo-header{
+    display: inline-block;
+    margin: 0;
+    transition: all 0.1s;
+    text-decoration: none;
+    color: #fff;
+  }
+  .logo-header img{
+    display: block;
+    width: 125px;
+    max-width: 100%;
+    height: auto;
+  }
+  .boton-unirme-header{
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .boton-unirme-header a{
+    background-color: #4b22f4;
+    background-color: var(--color-primary-main, #4B22F4);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out, border 150ms ease-in-out;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    text-decoration: inherit;
+    padding: 9.5px 30px;
+  }
+  .boton-unirme-header a:hover{
+    background-color: var(--color-primary-lighter, #9C86F9);
+  }
+  .boton-unirme-header a svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width:1200px) {
+  .section-header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  header {
+    background-color: #000000;
+    font-size: 18px;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #ffffff;
+  }
+
+  .header_content_desktop {
+    padding: 20px 0;
+    color: #ffffff;
+  }
+
+  .container-header {
+    align-items: center;
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    max-width: 1340px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .block-header {
+    text-align: center;
+    line-height: 1;
+    margin-left: 0 !important;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .logo-header{
+    display: inline-block;
+    margin: 0;
+    transition: all 0.1s;
+    text-decoration: none;
+    color: #fff;
+  }
+  .logo-header img{
+    display: block;
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+  }
+  .boton-unirme-header{
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .boton-unirme-header a{
+    background-color: #4b22f4;
+    background-color: var(--color-primary-main, #4B22F4);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out, border 150ms ease-in-out;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    text-decoration: inherit;
+    padding: 9.5px 30px;
+  }
+  .boton-unirme-header a:hover{
+    background-color: var(--color-primary-lighter, #9C86F9);
+  }
+  .boton-unirme-header a svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+}
